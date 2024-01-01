@@ -1,0 +1,223 @@
+*{
+
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+	min-height:100vh;
+
+}
+
+.first{
+	display:flex;
+	justify-content: center;
+	padding:6px;
+	align-items:center;
+	font-size:1.5rem;
+	background:RGB(246,228,217);
+
+}
+
+nav li{
+	display:inline-block;
+	align-items:flex-start;
+
+}
+li a {
+	text-decoration:none;
+}
+
+li #i1{
+
+	display:flex;
+
+	position:relative;
+
+}
+
+
+
+
+nav #i2{
+	margin:8px 15px;
+	padding-right:250px;
+	float:left;
+
+}
+
+h1 #heading{
+	position:sticky;
+
+}
+
+.column{
+
+	width:100%;
+
+	overflow:hidden;
+	height:75vh;
+
+	background:RGB(246,228,217);;
+}
+
+.grid1{
+
+	padding: 20px 16px;
+}
+
+.grid2{
+
+	padding: 18px 16px;
+}
+
+
+.grid3{
+
+	padding: 19px 16px;
+}
+
+#btn1{
+border:solid;
+background-color:transparent;
+padding:10px 8px;
+	border-radius: 0.3px;
+
+
+
+}
+
+
+.grid4{
+	padding:0px 8px;
+
+
+}
+
+.grid4 #btn1{
+	background-color:grey;
+
+}
+
+.grid4 #btn1{
+	background-color:grey;
+
+}
+
+.grid4 #btn1:hover{
+	background-color:grey;
+
+}
+
+#Shoppe{
+	padding:0 80px;
+}
+
+article{
+	padding-top:10px;
+	height:20vh;
+	margin:0;
+	background-color:grey;
+display:flex;
+justify-content:center;
+text-align-center;
+	flex-wrap: wrap;
+}
+.second-content{
+
+}
+
+.con-1, .con-2,.con-3,.con-4{
+
+	width:22%;
+
+
+}
+
+container{
+	display:flex;
+	gap:1.2em;
+	padding-right:6px;
+	padding-left:20px;
+	align-items:space-around;
+
+}
+
+container h2{
+	position:relative;
+}
+
+container a{
+	text-decoration:none;
+	color:black;
+}
+
+.columns1{
+
+	background:#888888;
+	height:110vh;
+}
+
+.col-1, .col-2{
+	padding:50px;
+	width:50%;
+
+}
+
+.columns1 .col-1{
+	padding:70px;
+}
+
+.columns1 .col-2{
+	display:flex;
+	margin-left:500px;
+	margin-top:-130px;
+	flex-wrap:wrap;
+	
+}
+
+.columns1 .col-2 img{
+
+	display:flex;
+	flex-wrap:wrap;
+	align-items:stretch;
+	float:right;
+	flex-direction:space-around;
+}
+.columns1 .col-2 .image-container{
+
+	float:right;
+}
+
+.columns1 .image-container img{
+	display:flex;
+	padding-left:10px;
+	grid:0.2em;
+	
+flex-wrap:wrap;
+
+	
+}
+.columns1 .image-container .img{
+	position:absolute;
+}
+
+#img_2{
+	display:flex;
+
+	padding:0px 145px;
+	float:right;
+	margin-left:90px;
+	position:absolute;
+	padding-left:;
+
+}
+
+#img_1{
+	display:flex;
+	padding-top:45px;
+	align-items:self-start;
+	flex-wrap:wrap;
+	margin-right:100px;
+}
